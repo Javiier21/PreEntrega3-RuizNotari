@@ -164,6 +164,16 @@ footer p {
   height: 400px;
 }
 
+.card {
+  text-align: center;
+}
+
+.card .img-crypto {
+  max-width: 100px;
+  margin: 0 auto;
+  /* Para centrar la imagen en la card */
+}
+
 /* Estilos de enlaces */
 nav a.nav-link {
   color: #fff !important;
