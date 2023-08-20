@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Sitio web de finanzas con información sobre cotizaciones, galería de imágenes, videos educativos y formulario de contacto.">
   <title>Contacto - Mi Sitio Web de Finanzas</title>
+  <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="../scss/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-row flex-md-column">
-      <a class="navbar-brand" href="index.html">Mi Sitio Web de Finanzas</a>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -45,7 +47,7 @@
     <section>
       <div class="container mt-5">
         <h1 class="text-center mb-4">Contacto</h1>
-        <form>
+        <form class="animate__animated animate__bounceInUp">
           <div class="form-group">
             <label for="nombre">Nombre:</label>
             <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">

@@ -141,6 +141,14 @@ footer p {
   text-align: center;
 }
 
+.logo {
+  width: 250px;
+  /* Ajusta el tamaño según tu diseño */
+  height: auto;
+  margin-right: 10px;
+  /* Espaciado entre el logo y el texto */
+}
+
 .portada {
   color: #fff !important;
   background-image: url(../img/portada.jpg);

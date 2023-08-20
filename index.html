@@ -10,15 +10,18 @@
     <link rel="stylesheet" href="scss/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <!-- In <head> after the Bootstrap CSS. -->
     <link rel="stylesheet"
         href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark flex-row flex-md-column">
-            <a class="navbar-brand" href="index.html">Mi Sitio Web de Finanzas</a>
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,9 +52,10 @@
         <section class="section">
             <div class="container-fluid portada p-5">
                 <div class="col-md-12 col-7">
-                    <h1 class="text-white fade-in">Bienvenido a Mi Sitio Web de Finanzas</h1>
-                    <p class="text-white fade-in">¡Aquí encontrarás información financiera relevante y actualizada!</p>
-                    <a class="btn btn-primary fade-in" href="#cotizaciones">Ver más</a>
+                    <h1 class="text-white  animate__animated animate__backInRight">Bienvenido a Mi Sitio Web de Finanzas</h1>
+                    <p class="text-white  animate__animated animate__fadeIn">¡Aquí encontrarás información financiera
+                        relevante y actualizada!</p>
+                    <a class="btn btn-primary  animate__animated animate__fadeIn" href="#cotizaciones">Ver más</a>
                 </div>
             </div>
         </section>
@@ -62,7 +66,7 @@
                 <div class="row text-center">
                     <div class="col-md-4"></div>
                     <div class="col-md-4">
-                        <h2 class="font-weight-bold">Cotizaciones Destacadas</h2>
+                        <h2 class="font-weight-bold animate__animated animate__fadeInUp">Cotizaciones Destacadas</h2>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Bitcoin: $50,000</li>
                             <li class="list-group-item">Ethereum: $2,500</li>
@@ -75,7 +79,7 @@
                 <div id="cotizaciones" class="row">
 
                     <div class="col-md-12 noticias">
-                        <div>
+                        <div class="animate__animated animate__fadeIn">
                             <h2>Noticias Financieras</h2>
                             <p>¡Las últimas noticias sobre el mercado financiero!</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus,
@@ -88,7 +92,7 @@
                                 dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
                             <a class="btn btn-primary" href="#">Leer mas</a>
                         </div>
-                        <div>
+                        <div class="animate__animated animate__fadeIn">
                             <h2>Noticias Financieras 2</h2>
                             <p>¡Las últimas noticias sobre el mercado financiero!</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus,
@@ -101,7 +105,7 @@
                                 dapibus. Curabitur sagittis mauris eget eleifend facilisis.</p>
                             <a class="btn btn-primary" href="#">Leer mas</a>
                         </div>
-                        <div>
+                        <div class="animate__animated animate__fadeIn">
                             <h2>Noticias Financieras 3</h2>
                             <p>¡Las últimas noticias sobre el mercado financiero!</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer gravida finibus risus,
@@ -124,7 +128,7 @@
                 <h2 class="text-center font-weight-bold">Explora más sobre Finanzas</h2>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card fade-in">
+                        <div class="card ">
 
                             <div class="card-body">
                                 <h3 class="card-title">Inversiones Inteligentes</h3>
@@ -135,7 +139,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card fade-in">
+                        <div class="card ">
 
                             <div class="card-body">
                                 <h3 class="card-title">Ahorro Eficiente</h3>
@@ -146,7 +150,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card fade-in">
+                        <div class="card ">
 
                             <div class="card-body">
                                 <h3 class="card-title">Tendencias del Mercado</h3>
