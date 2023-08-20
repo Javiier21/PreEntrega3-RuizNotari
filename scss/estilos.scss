@@ -1,0 +1,175 @@
+/* Estilos para index.html */
+
+/* Estilos generales */
+ul.navbar-nav.ml-auto {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-weight: bold;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: #236ad4;
+  padding: 1em;
+  color: #fff !important;
+
+  &:hover {
+    background-color: darken(#236ad4, 10%);
+  }
+}
+
+/* Estilos de encabezado */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+/* Estilos de párrafos */
+p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Estilos de lista */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* Estilos de imagen */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+/* Estilos de enlaces */
+nav a.nav-link {
+  color: #fff !important;
+
+  &:hover {
+    color: #f0d90f !important;
+  }
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+/* Estilos de secciones */
+.section {
+  margin-bottom: 30px;
+}
+
+/* Estilos de fondo */
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos de pie de página */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+
+  p {
+    color: #fff;
+    margin-top: 20px;
+  }
+}
+
+.img-crypto {
+  width: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: column;
+
+  a.navbar-brand {
+    margin: 20px 0px;
+    text-align: center;
+  }
+}
+
+.portada {
+  color: #fff !important;
+  background-image: url(../img/portada.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.noticias {
+  display: flex;
+
+  div {
+    padding: 30px;
+  }
+}
+
+.slides {
+  width: auto;
+  height: 400px;
+}
+
+/* Estilos de enlaces */
+nav a.nav-link {
+  color: #fff !important;
+
+  &:hover {
+    color: #f0d90f !important;
+  }
+}
+
+a {
+  /* Cambiar el color de los enlaces para que no se confundan con los botones */
+  color: #FFF;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
